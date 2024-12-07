@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*Colocando uma Imagem no fundo do site*/
+body{
+    background-image: url(../img/target001.png);
+}
+
+/*Mexendo na div dos quadrados*/
+div.quadrado{
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+}
+
+/*Mexendo no quadrado 1*/
+div#q1{
+    background-color: #40c9ff;
+}
+
+/*Mexendo no quadrado 2*/
+div#q2{
+    background: linear-gradient(90deg, #3a0d75, #bb3535);
+}
+
+/*Mexendo no quadrado 3*/
+div#q3{
+    background-color: #01243b;
+}
+
+/*Mexendo no quadrado 4*/
+div#q4{
+    background-image: url(../img/pattern003.png);;
+}
