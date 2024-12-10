@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+    background: #000 url(../img/wallpaper001.jpg) center center no-repeat fixed; /*Simplifiquei com o shorthand!*/
+    background-size: cover;
+}
+
+main{
+    background-color: #fff;
+    max-width: 700px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #0026ff;
+    border-radius: 10px;
+}
+
+/*Shorthand -  background
+    color > image > position > repeat > attachment*/                 
+                                                             
