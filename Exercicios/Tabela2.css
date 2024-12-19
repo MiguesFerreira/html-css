@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Tabela{
+    width: 400px;
+    height: 200px;
+    border-collapse: collapse;
+    background-color: #4c94ff;
+    color: #000;
+}
+
+td{
+    padding: 7px;
+    border: 1px solid #000;
+}
