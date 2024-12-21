@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.Tabela{
+    width: 300px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+caption{
+    padding: 10px;
+}
+
+td, th{
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.Class{
+    background-color: #8f8f8f;
+}
+
+.Class2{
+    background-color: #8f8f8f;
+}
+
+.Media{
+    text-align: left;
+    background-color: #8f8f8f;
+}
+
+.Mediaa{
+    background-color: #8f8f8f;
+}
