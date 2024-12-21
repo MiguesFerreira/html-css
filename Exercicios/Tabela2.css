@@ -6,13 +6,38 @@
 
 .Tabela{
     width: 400px;
-    height: 200px;
     border-collapse: collapse;
-    background-color: #4c94ff;
-    color: #000;
+    position: relative;
 }
 
-td{
-    padding: 7px;
+caption{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+td, th{
     border: 1px solid #000;
+    padding: 10px;
+}
+
+thead, tfoot{
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: 0;
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+}
+
+tr:nth-child(even){/*Even: par, Odd: impar*/
+    background-color: rgb(163, 163, 163);
+}
+
+.numero{
+    text-align: right;
+    width: 90px;
 }
